@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+         <h:outputStylesheet name="css/header.css"/>
+         <h:outputStylesheet name="css/scoreboard.css"/>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+         <script  src="resources/js/scoreboard.js"></script>
+         
+    </h:head>
+    <h:body>
+        <nav class="navigacija">
+                    <ul class="ula" > 
+                        <li class='lista'><a class='link' href='http://localhost:8080/CS230-PZ/faces/login.xhtml'>#{users.username}</a></li>
+                        <li class='lista'><a class='link' href='registerstrana.php'>Registracija</a></li>
+                        <li class="lista"><a class="link" href="http://localhost:8080/CS230-PZ/faces/pocetna.xhtml">Pocetna</a></li>
+                        <li class="lista"><a class="link" href="http://localhost:8080/CS230-PZ/faces/scoreboard.xhtml">Score Board</a></li>
+                        <li class="lista"><a class="link" href="http://localhost:8080/CS230-PZ/faces/download.xhtml">Download</a></li>
+                    </ul>
+                </nav>
+        
+        
+    <div class="list-type2">
+        <ol id="skorovi">
+        
+        </ol>
+    </div>
+
+
+        
+        
+        
+        
+        <footer>
+            <div class="footer-wrapper">
+                <div class="single-footer">
+                    <h3>Copmany logo</h3>
+
+                </div>
+                <div class="single-footer">
+                    <h3>Radio</h3>
+                    <ul>
+                        <li>Nikola Lazin</li>
+                        <li>Br. indeksa: 4384</li>
+                    </ul>
+                </div>
+                <div class="single-footer">
+                    <h3>Kontakt</h3>
+                    <ul>
+                        <li>Tel: +381 (0)60 343-80-81</li>
+                        <li>e-mail: nikola.lazin.4384@metropolita.ac.rs</li>
+
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </h:body>
+</html>
+

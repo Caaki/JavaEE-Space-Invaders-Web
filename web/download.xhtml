@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <h:outputStylesheet name="css/header.css"/>
+        <h:outputStylesheet name="css/download.css"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <title>Facelet Title</title>
+        <script> 
+function onImg() {
+	this.setAttribute("src", "resources/slike/dugme1.png");
+}
+function outImg() {
+	this.setAttribute("src", "resources/slike/dugme2.png");
+}
+</script>
+
+    </h:head>
+    <h:body>
+        <nav class="navigacija">
+                    <ul class="ula" > 
+                        <li class='lista'><a class='link' href='http://localhost:8080/CS230-PZ/faces/login.xhtml'>#{users.username}</a></li>
+                        <li class='lista'><a class='link' href='registerstrana.php'>Registracija</a></li>
+                        <li class="lista"><a class="link" href="http://localhost:8080/CS230-PZ/faces/pocetna.xhtml">Pocetna</a></li>
+                        <li class="lista"><a class="link" href="http://localhost:8080/CS230-PZ/faces/scoreboard.xhtml">Score Board</a></li>
+                        <li class="lista"><a class="link" href="http://localhost:8080/CS230-PZ/faces/download.xhtml">Download</a></li>
+                    </ul>
+                </nav>
+
+
+        <div class="popuni">
+            <div class="Main">
+                <div class="neboPomoc">
+                    <div class="nebo">
+                    </div>
+                </div>
+                <div class="game" >
+                </div>
+                <div class="dolePomoc">
+                    <a href="https://drive.google.com/file/d/1yd6ehpfBdsl-dPtX77RyQ8el5nySZkHi/view?usp=sharing"><img id="download" src="resources/slike/dugme2.png" onmouseover="onImg.call(this)" onmouseout="outImg.call(this)"/> </a>
+                    <div class="dole">
+                    </div>
+                </div>
+                
+            </div>
+       
+
+ </div>
+
+
+
+
+
+         <footer>
+                <div class="footer-wrapper">
+                    <div class="single-footer">
+                        <h3>Copmany logo</h3>
+
+                    </div>
+                    <div class="single-footer">
+                        <h3>Radio</h3>
+                        <ul>
+                            <li>Nikola Lazin</li>
+                            <li>Br. indeksa: 4384</li>
+                        </ul>
+                    </div>
+                    <div class="single-footer">
+                        <h3>Kontakt</h3>
+                        <ul>
+                            <li>Tel: +381 (0)60 343-80-81</li>
+                            <li>e-mail: nikola.lazin.4384@metropolita.ac.rs</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+    </h:body>
+</html>
+

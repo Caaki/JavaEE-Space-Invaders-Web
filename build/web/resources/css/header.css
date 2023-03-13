@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+ 
+
+@font-face {
+  font-family: pixelArtFont;
+  src: url(".../fonts/Pixelmania.ttf");
+}
+
+
+@font-face {
+  font-family: naslovPixelFont;
+  src: url(".../fonts/PixelChaos.ttf");
+}
+@font-face {
+	src: url(.../fonts/Windlass.ttf);
+	font-family: "rpgFont2";
+}
+
+* {
+	font-size:16px;
+	margin: 0 ;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+.navigacija {
+	background-color: black;
+	height: 5.375rem;
+	border: 2px solid white;
+}
+.ula {
+	text-decoration: none;
+	margin-right: 2%;
+	
+	
+}
+.lista {
+	display: inline-block;
+	float: right;
+	padding: 1.5625rem 1.5625rem;
+	text-transform: uppercase;
+	
+}
+h:commandButton{
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    font-family: pixelArtFont;
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: white;
+}
+.link {
+	font-family: pixelArtFont;
+	text-decoration: none;
+	font-size: 1rem;
+	color: white;
+
+}
+
+footer {
+	padding-top: 1vh;
+	width: 100%;
+	height:90px;
+	position: fixed;
+	bottom: 0;
+	z-index: 2;
+	background-color:#262626;
+}
+#instagram{
+	width: 50px;
+}
+.logo{
+	width: 90px;
+	padding-left: 30px;
+}
+.logo1{
+	width: 100px;
+	padding-left: 30px;
+}
+.footer-wrapper{
+	width:  80%;
+	margin: 0 auto;
+}
+.single-footer {
+	width: 33%;
+	float: left;
+	text-align: left;
+	color: #fff;
+}
+.single-footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-bottom: 10px;
+}
+.single-footer ul a{
+	text-decoration: none;
+	color: #fff;
+}
+.single-footer ul li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 0.8rem;
+}
+
+.single-footer p{
+	width: 70%;
+	font-size: 1rem;
+	margin-top: 10px;
+}
+.single-footer h3{
+	font-size: 1.1rem;
+}
